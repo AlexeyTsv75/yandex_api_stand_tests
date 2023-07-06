@@ -81,6 +81,7 @@ def test_create_user_russian_letter_in_first_name_get_success_response():
     positive_assert("Мария")
 
 
+
 def test_create_user_has_space_in_first_name_get_error_response():
     negative_assert_symbol("Человек и КО")
 
